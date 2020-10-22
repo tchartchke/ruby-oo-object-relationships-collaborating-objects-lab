@@ -2,9 +2,6 @@ class Artist
 
   attr_accessor :name
 
-  # attr_reader :songs #getter for all the songs. ALL OF THEM.
-  # attr_writer :song_list #setter for all the songs. ALL OF THEM.
-
   @@all = []
 
   def initialize(name)
